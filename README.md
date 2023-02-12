@@ -11,3 +11,4 @@
     + [Задача №1](https://github.com/guitaristdave/java/blob/main/seminars/lesson1/app.java) - делает выборку из четных элементов массива    
 * [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson1)
     + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson1/program.java) - вычисляет n-ое треугольное число
+</details>
