@@ -12,3 +12,7 @@
 * [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson1)
     + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson1/program.java) - вычисляет n-ое треугольное число
 </details>
+<details><summary>Урок 2. Почему вы не можете не использовать API</summary>
+
+* [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson2)
+    + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson2/Program.java) Реализовать функцию возведения числа а в степень b. a, b ∈ Z
