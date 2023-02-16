@@ -16,3 +16,11 @@
 
 * [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson2)
     + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson2/Program.java) Реализовать функцию возведения числа а в степень b. a, b ∈ Z
+</details>
+
+<details><summary>Урок 3. Коллекции JAVA: Введение</summary>
+
+* [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson3)
+    + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson3/Program.java) Реализовать алгоритм сортировки слиянием
+
+</details>
