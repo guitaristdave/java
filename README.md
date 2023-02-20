@@ -24,3 +24,10 @@
     + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson3/Program.java) Реализовать алгоритм сортировки слиянием
 
 </details>
+
+<details><summary>Урок 4. Хранение и обработка данных ч1: приоритетные коллекции</summary>
+
+* [Домашнее задание](https://github.com/guitaristdave/java/tree/main/homeworks/lesson4)
+    + [Задача №1](https://github.com/guitaristdave/java/blob/main/homeworks/lesson4/Program.java) Реализовать алгоритм сортировки кучей
+
+</details>
