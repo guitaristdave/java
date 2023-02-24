@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Program {
     public static void main(String[] args) {
-        int[] arr = fillArray(createArray(123));
+        int[] arr = fillArray(createArray(100000));
         System.out.println(printArray(arr));
         mergeSort(arr);
         System.out.println(printArray(arr));
