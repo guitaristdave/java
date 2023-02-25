@@ -2,22 +2,46 @@ package homeworks.lesson5;
 
 public class WaveAlgorithm {
     public static void main(String[] args) {
-        int[][] grid = {
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
+        String x = drawField(getField());
+        System.out.println(x);
+    }
+    // Карта: -1 - стена, 1 - начало пути, 2 - конец пути
+    public static int[][] getField() {
+        int[][] result = { { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
+                           { -1, 00, 00, 00, 00, 00, 00, -1, 00, 00, 00, 00, 00, 00, -1 },
+                           { -1, 00, 00, 00, 00, 00, 00, -1, 00, 00, 00, 00, -1, 00, -1 },
+                           { -1, -1, -1, -1, -1, 00, 00, -1, -1, -1, -1, 00, -1, 00, -1 },
+                           { -1, 00, 00, 00, -1, 00, 00, 00, 00, 00, 00, 00, -1, 00, -1 },
+                           { -1, -1, -1, 00, -1, 00, 00, -1, 00, 00, 00, 00, -1, 00, -1 },
+                           { -1, 00, 00, 00, -1, 00, 00, -1, 00, 00, 00, 00, -1, 00, -1 },
+                           { -1, 00, -1, -1, -1, 00, -1, -1, -1, -1, -1, 00, -1, 00, -1 },
+                           { -1, 00, 00, 00, 00, 00, 00, 00, -1, 00, 00, 00, -1, -1, -1 },
+                           { -1, 00, -1, 00, 00, 00, 00, 00, -1, 00, 00, 00, -1, 02, -1 },
+                           { -1, 00, -1, -1, -1, -1, -1, 00, -1, 00, -1, -1, -1, 00, -1 },
+                           { -1, 00, -1, 00, 00, 00, 00, 00, -1, 00, -1, 00, 00, 00, -1 },
+                           { -1, 00, -1, 00, -1, -1, -1, -1, -1, 00, -1, 00, 00, 00, -1 },
+                           { -1, 01, -1, 00, 00, 00, 00, 00, -1, 00, 00, 00, -1, 00, -1 },
+                           { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }
         };
- 
-        for (int row = 0; row < grid.length; row++) {
-            if (row % 2 == 0) {
-                for (int col = 0; col < grid[row].length; col++) {
-                    System.out.print(grid[row][col] + " ");
-                }
-            } else {
-                for (int col = grid[row].length - 1; col >= 0; col--) {
-                    System.out.print(grid[row][col] + " ");
+        return result;
+    }
+
+    public static String drawField(int[][] array) {
+        String result = "";
+        for (int[] line : array) {
+            for (int item : line) {
+                if (item == -1) {
+                    result += "■■ ";
+                } else if (item == 0) {
+                    result += "□□ ";
+                } else if (item > 0 && item < 10) {
+                    result += "0" + item + " ";
+                } else {
+                    result += item + " ";
                 }
             }
+            result += "\n";
         }
+        return result;
     }
 }
